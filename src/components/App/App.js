@@ -5,10 +5,10 @@ import Footer from '../Footer';
 
 function App() {
   return (
-    <>
+    <React.StrictMode>
       <ToastPlayground />
       <Footer />
-    </>
+    </React.StrictMode>
   );
 }
 
